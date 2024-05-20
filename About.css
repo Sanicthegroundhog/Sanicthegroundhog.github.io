@@ -64,6 +64,40 @@ h1{
         color: rgb(0, 0, 0);
       }
 
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgb(255, 217, 0);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .header {
+        background-color: #62f192;
+        padding: 20px;
+        text-align: center;
+      }
+
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #f1f1f1;
+      }
+
       img {
         display: block;
         margin-left: auto;
